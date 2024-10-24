@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taipei</title>
+    <style>
+        * 
+{
+box-sizing:border-box;
+}
+/* Style the body */      
+body {
+margin: 0%;
+font-family: Arial, Helvetica, sans-serif;
+}
+        
+.container {
+padding: 64px;
+}
+
+.container2{
+padding: 20px;
+}
+        
+.row:after {
+content: "";
+display: table;
+clear: both
+}
+        
+.column-66 {
+float: left;
+width: 60%;
+padding: 20px;
+}
+        
+.column-33 {
+float: left;
+width: 40%;
+padding: 20px;
+}
+        
+.large-font {
+font-size: 30px;
+}
+        
+.xlarge-font {
+font-size: 40px
+}
+ 
+
+/* img
+img {
+display: block;
+height: auto;
+ max-width: 100%;
+}
+*/
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scroll-container img {
+padding: 10px;
+}    
+
+@media screen and (max-width: 1000px) {
+.column-66,
+.column-33 {
+width: 100%;
+text-align: center;
+}
+img {
+margin: auto;
+}
+}
+/* Heading */
+.header {
+padding: 15px;
+text-align: center;
+background: pink;
+color:black;
+}
+.header h1{
+font-size: 90px;
+}
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+overflow: hidden;
+background-color: #333;
+position: sticky;
+position: -webkit-sticky;
+top: 0;
+}
+        
+/* Style the navigation bar links */
+.navbar a {
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+               
+/* Change color on hover */
+.navbar a:hover {
+background-color: grey;
+}
+        
+/* Active/current link */
+.navbar a.active {
+background-color: #666;
+color: white;
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+.navbar a {
+float: none;
+width: 100%;
+}
+}
+
+
+/* Footer */
+.footer {
+padding: 20px;
+text-align: center;
+background: #ddd;
+}
+
+a {font-size: 20px; color: black;}
+a:hover { color: rgb(0, 102, 255);}
+</style>
+<!-- Icon-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="icon" type="image/x-icon" href="/Heart icon.png">
+
+</head>
+<body>
+<a id="top3"></a>
+<div class="header">
+<h1><span style="font-weight:normal">台北</span></h1>
+ </div>
+        
+<!-- Netvigation bar-->      
+<div class="navbar">
+<a href="index.html">Home</a>
+<a href="#">台北</a>
+<a href="Karuizawa.html" target="_blank">日本輕井澤</a>
+<a href="Korea.html" target="_blank">韓國首爾</a>
+<a href="Shanghai.html" target="_blank">上海</a>
+<a href="Aboutme.html" target="_blank">聯絡我們</a>
+</div>
+
+
+<!-- Section tag-->
+<div class="container" >
+<a href="#twhistory"><b>台北歷史</b></a> <a href="#twculture"><b>台北文化</b></a> <a href="#twplace"><b>景點推薦</b></a>
+</div> 
+<!-- 台北歷史 -->
+<div class="container" id="twhistory">
+<div class="row">
+<div class="column-66">
+<h1 class="xlarge-font"><b>台北歷史</b></h1>
+<h1 style="color:MediumSeaGreen;">台北市的城市發展過程，分為四個時期，<br>即清代、日據時期、省轄市時期及直轄市時期：</h1>
+<p><b>一、清代的開發</b></p>
+<p>台北市早期為平埔族凱達格蘭族的漁獵場所，1709年漢人成立「陳賴章墾號」請墾大佳臘地區，始有規模性的土地開發，其後漢人引水築圳興修水利，陸續形成村莊，最先於艋舺形成市街，即今萬華；其後陸續形成士林街、錫口街、大龍峒、大稻埕與城內等市街。 1875年欽差大臣沈葆楨向清朝廷奏請設立台北府，1884年台北城興築完竣，設置東門、西門、南門、小南門、北門等5個城門。1885年台灣建省，清朝任命劉銘傳為首任台灣巡撫。</p>
+<p><b>二、日據時期</b></p>
+<p>1905年市區改正計畫，拆除台北城牆，並以廢棄的城基改建三線道路。此時台北市街道系統以新公園（今二二八和平公園）為中心，稍呈放射狀發展。1932年臺北州發布大台北市區計畫，大部分的日人、官吏、軍人以及商人，多以城內為中心向四周地區擴散，一切現代化設施，如新式醫院、電燈的裝置以及文教與商業金融機構等設立在日人集中區。工業則主要分布於臺人街區內，如大稻埕的周緣地帶以鐵工業為主，大稻埕街區內則以食品工業尤其是製茶業為多，另艋舺南邊一帶則以化學工業為主。</p>
+<p><b>三、四、省轄市時期及直轄市時期</b></p>
+<p>1945年台北市成為省轄市，1949年中央政府播遷來台，台北市成為臨時首都。1967年台北市改制為直轄市，翌年將台北縣之南港鎮、景美鎮、木柵鄉與內湖鄉4鄉鎮，及陽明山管理局的北投、士林2鎮併入台北市。改制後都市建設重心開始向東轉移， 1990年台北市的行政區由16區調整為12區，即松山、信義、大安、中山、中正、大同、萬華、文山、南港、內湖、士林與北投共12個行政區，迄2019年止仍維持目前的行政區架構。</p>
+</div>
+<div class="column-33">
+<div class="scroll-container">
+<img src="Taipei history 1.jpg" alt="history1" width="330" height="330">  
+<img src="Taipei history 2.jpg" alt="history2" width="330" height="330">
+<img src="Taipei history 3.jpg" alt="history3" width="330" height="330">
+<img src="Taipei history 4.jpg" alt="history4" width="330" height="330">
+</div>
+</div>
+</div>
+</div>
+    
+<!-- 台北文化 -->
+<div class="container" style="background-color:#f1f1f1" id="twculture">
+<div class="row">
+<div class="column-33">
+<div class="scroll-container">
+<img src="Taipei arecanut.jpg" alt="arecant" width="330" height="330">
+<img src="Taipei nightmarket.jpg" alt="nightmarket" width="330" height="330">
+<img src="Taipei motorbike.jpg" alt="motorbike" width="330" height="330">
+<img src="Taipei Coffee shop.jpg" alt="coffee shop" width="330" height="330">
+<img src="Taipei temple.jpg" alt="temple" width="330" height="330">
+</div>
+</div>
+<div class="column-66">
+<h1 class="xlarge-font"><b>台北文化</b></h1>
+<h1 style="color:MediumSeaGreen;"><b>5大台灣特色文化 <br>檳榔、夜市、機車、茶店和咖啡館、道教</b></h1>
+<p><b>檳榔</b></p>
+<p style="font-size: larger;">台灣咀嚼檳榔的風氣非常盛行，曾被戲稱為「台灣口香糖」。</p>
+<p><b>夜市</b></p>
+<p style="font-size: larger;">台北市有18個夜市，當中有5大必去夜市: 士林夜市、饒河夜市、寧夏夜市、華西街夜市、師大夜市。</p>
+<p><b>機車</b></p>
+<p style="font-size: larger;">台灣是全球機車密集度最高的地方，是多數台灣人主要的交通工具，在日常生活中扮演非常重要的角色。</p>
+<p><b>茶店、咖啡館</b></p>
+<p style="font-size: larger;">台灣也有很多茶店和咖啡館。因此，不少台灣人養成到茶店、咖啡館喝一杯，消磨一整個下午時光的習慣。</p>
+<p><b>道教</b></p>
+<p style="font-size: larger;">道教為台灣社會中重要的信仰。據統計，台灣登記有案的道廟有四千一百三十所。</p>
+</div>
+</div>
+</div>
+ 
+<!-- 台北景點 -->
+<div class="container" id="twplace">
+<h1 class="xlarge-font"><b>親子遊景點推薦</b></h1> 
+</div>
+<!-- 台北景點 1-->
+<div class="container2">
+<div class="row">
+<div class="column-66">
+<h1 class="large-font" style="color:MediumSeaGreen;"><b>Xpark</b></h1>
+<p style="font-size: larger;">Xpark是台灣第一座新都會型水生公園，更是日本八景島團隊打造的日系都會型水族館，顛覆了傳統水族館的樣貌。水族館展區共有三層，有多達十個區域，各式各樣的海洋生態令人目不暇給。園內最具特色的展區莫過於造浪的海底隧道，一波波的海浪就在眼前沖刷著海底隧道，營造出極之真實的海洋世界，令人眼前一亮。園中有一個極大魚缸——福爾摩沙，以台灣海洋生態為主題，讓你們近距離感受海洋之美，絕對會令小朋友看得歎為觀止，大人又可以在這裏打卡拍照，很適合一家大小出行！展區「癒見水母」以不同燈光映照著透明的水母，營造出萬花筒般魔幻美麗的世界，十分適合愛美的你打卡！區內還有水母實驗室，你們可在此一探水母的誕生過程，滿足小朋友的好奇心。</p>
+<p><i class="material-icons">&#xe88d;</i><b>官網：</b></p>
+<p><a href="https://www.xpark.com.tw/index" target="_blank">https://www.xpark.com.tw/index</a></p>
+<p><i class="material-icons">&#xe567;</i><b>地址：</b></p>
+<p>320台灣桃園市中壢區春德路105號</p>
+<p><i class="material-icons">&#xe0b0;</i><b>電話：</b></p>
+<p>03-287-5000</p>
+<p><i class="material-icons">&#xe192;</i><b>營業時間：</b></p>
+<p>星期日至五 10:00 – 18:00；星期六：10:00 – 20:00</p>
+<p><i class="material-icons">&#xe534;</i><b>交通方式：</b></p>
+<p>桃園捷運：A18站下車，徒步約8分鐘</p>
+<p>高鐵：桃園站6號出口，徒步約9分鐘</p>
+<p>公車：高鐵桃園站下車，徒步約10分鐘</p>
+</div>
+<div class="column-33">
+<iframe class=responsive-iframe width="500" height="500" src="https://www.youtube.com/embed/AHjfvO0OsyE?si=RSnimC8aKXrM5hod" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<!-- 台北景點 2-->
+<div class="container2">
+<div class="row">
+<div class="column-66">
+<h1 class="large-font" style="color:MediumSeaGreen;"><b>台北市立兒童新樂園</b></h1>
+<p style="font-size: larger;">台北市立兒童新樂園是一個充滿童趣的地方，適合小朋友和家庭一起來玩耍和探索。園區內有很多受歡迎的遊樂設施，包括以八大行星繞行太陽為發想的旋轉鞦韆——「宇宙迴旋」、能環繞整個園區的單軌列車——「銀河號」、以韓國卡通「救援小英雄波力」為造型的「波力摩天輪」、以飛機為造型的「星空小飛碟 」、刺激感100分的「尋寶船」（海盜船）、最經典的雲霄飛車——「魔法星際飛車」等，不論你和小朋友喜歡刺激與否，都總可以找到適合你的遊樂設施。除了適合小朋友玩的遊樂設施外，著名的網美拍照景點「轉轉咖啡杯」的外型十分繽紛可愛，馬卡龍配色加上精美的設計，也十分適合媽媽們打卡拍照！</p>
+<p><i class="material-icons">&#xe88d;</i><b>官網：</b></p>
+<p><a href="https://www.tcap.taipei/" target="_blank">https://www.tcap.taipei/</a></p>
+<p><i class="material-icons">&#xe567;</i><b>地址：</b></p>
+<p>11169台北市士林區承德路五段55號</p>
+<p><i class="material-icons">&#xe0b0;</i><b>電話：</b></p>
+<p>02-2833-3823</p>
+<p><i class="material-icons">&#xe192;</i><b>營業時間：</b></p>
+<p>寒、暑假期間：星期一至日 09:00-20:00</p>
+<p>非寒、暑假期間：星期二至五 09:00-17:00；星期六、日 09:00-18:00</p>
+<p><i class="material-icons">&#xe534;</i><b>交通方式：</b></p>
+<p>台北捷運：劍潭站下車，3號出口轉乘公車41、紅30、兒樂2號線</p>
+<p>台北捷運：士林站下車，1號出口轉乘公車255區、紅30、620、兒樂1號線</p>
+<p>台北捷運：芝山站下車，1號出口轉乘公車兒樂1號線</p>
+</div>
+<div class="column-33">
+<iframe class=responsive-iframe width="500" height="500" src="https://www.youtube.com/embed/RxuZYBmPbqk?si=x7Q-rtwn8F66a8M5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<!-- 台北景點 3-->
+<div class="container2">
+<div class="row">
+<div class="column-66">
+<h1 class="large-font" style="color:MediumSeaGreen;"><b>十份</b></h1>
+<p style="font-size: large;">十份最有特色風莫過於這裏的老街，它是與火車鐵軌並存相連的，給人一種「火車門前過」的獨特鐵道風貌，充滿古色古香的感覺！在十份老街上，你一定不能錯過一個指定動作——放天燈！把心願都寫在天燈上，寄予未來無限的希望與祝福。老街上的商店都有提供素色及多色天燈，價格也不算昂貴，而且店員還會幫你拍照，並教你如何放天燈。</p>
+<p><i class="material-icons">&#xe88d;</i><b>官網：</b></p>
+<p><a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001091&id=2188" target="_blank">https://www.taiwan.net.tw/m1.aspx?sNo=0001091&id=2188</a></p>
+<p><i class="material-icons">&#xe567;</i><b>地址：</b></p>
+<p>226台灣新北市平溪區十分街81號</p>
+<p><i class="material-icons">&#xe534;</i><b>交通方式：</b></p>
+<p>臺鐵縱貫線：八堵站轉乘平溪支線，在十分站下車</p>
+<p>宜蘭線火車：瑞芳站轉乘平溪支線，在十分站下車</p>
+</div>
+<div class="column-33">
+<iframe class=responsive-iframe width="500" height="500" src="https://www.youtube.com/embed/WqKTZCvYYCE?si=MzPZULhL-5ImdsUu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<!-- Footer -->  
+<div class="footer">
+<p class="font-weight-bold" ><a href="#top3"> <b>Back to top </b></a></p>
+<p>2024 Copyright: Angel Class no: 03 </p>
+</div>   
+</div>
+</body>
+</html>

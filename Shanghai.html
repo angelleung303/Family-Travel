@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanghai</title>
+    <style>
+        * 
+{
+box-sizing:border-box;
+}
+/* Style the body */      
+body {
+margin: 0%;
+font-family: Arial, Helvetica, sans-serif;
+}
+        
+.container {
+padding: 64px;
+}
+
+.container2{
+padding: 20px;
+}
+        
+.row:after {
+content: "";
+display: table;
+clear: both
+}
+        
+.column-66 {
+float: right;
+width: 55%;
+padding: 20px;
+}
+        
+.column-33 {
+float: right;
+width: 45%;
+padding: 20px;
+}
+        
+.large-font {
+font-size: 30px;
+}
+        
+.xlarge-font {
+font-size: 40px
+}
+ 
+
+/* img
+img {
+display: block;
+height: auto;
+ max-width: 100%;
+}
+*/
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scroll-container img {
+padding: 10px;
+}    
+
+@media screen and (max-width: 1000px) {
+.column-66,
+.column-33 {
+width: 100%;
+text-align: center;
+}
+img {
+margin: auto;
+}
+}
+/* Heading */
+.header {
+padding: 15px;
+text-align: center;
+background: pink;
+color:black;
+}
+.header h1{
+font-size: 90px;
+}
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+overflow: hidden;
+background-color: #333;
+position: sticky;
+position: -webkit-sticky;
+top: 0;
+}
+        
+/* Style the navigation bar links */
+.navbar a {
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+               
+/* Change color on hover */
+.navbar a:hover {
+background-color: grey;
+}
+        
+/* Active/current link */
+.navbar a.active {
+background-color: #666;
+color: white;
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+.navbar a {
+float: none;
+width: 100%;
+}
+}
+
+
+/* Footer */
+.footer {
+padding: 20px;
+text-align: center;
+background: #ddd;
+}
+
+a {font-size: 20px; color: black;}
+a:hover { color: rgb(0, 102, 255);}
+</style>
+<!-- Icon-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="icon" type="image/x-icon" href="/Heart icon.png">
+</head>
+<body>
+<a id="top6"></a>
+<div class="header">
+<h1><span style="font-weight:normal">上海</span></h1>
+ </div>
+        
+<!-- Netvigation bar-->      
+<div class="navbar">
+<a href="index.html">Home</a>
+<a href="Taipei.html" target="_blank">台北</a>
+<a href="Karuizawa.html" target="_blank">日本輕井澤</a>
+<a href="Korea.html" target="_blank">韓國首爾</a>
+<a href="#">上海</a>
+<a href="Aboutme.html" target="_blank">聯絡我們</a>
+</div>
+
+
+<!-- Section tag-->
+<div class="container" >
+<a href="#SHhistory"><b>上海歷史</b></a> <a href="#SHculture"><b>上海文化</b></a> <a href="#SHplace"><b>景點推薦</b></a>
+</div> 
+<!-- 上海歷史 -->
+<div class="container" id="SHhistory">
+<div class="row">
+<div class="column-66">
+<h1 class="xlarge-font"><b>上海歷史</b></h1>
+<h1 style="color:MediumSeaGreen;">上海，簡稱“滬”，別稱“申”</h1>
+<p>上海西部在6000年前就已成陸，市區約在10世紀前葉才全部形成。
+<br><br>相傳春秋戰國時期，上海曾經是楚國春申君黃歇的封邑，故上海別稱為「申」。公元四、五世紀時的晉朝，以捕魚為生的居民創造了一種竹編的捕魚工具叫“扈”，又因為當時江流入海處稱“瀆”，因此松江下游一帶被稱為“扈瀆”，以後又改“捬”為“滬”
+<br><br>鴉片戰爭失敗後，中國沿海五大港口開港通商，上海於1843年11月17日正式開放，在被迫開放的百年裡，英、美、法、日本各國帝國主義列強在此互相競爭租界，現在看到的外灘和各式建築大多是建於租界時期，也是上海多國風情的開端。<br>
+</div>
+<div class="column-33">
+<div class="scroll-container">
+<img src="Shanghai history 1.jpg" width="370" height="370">  
+<img src="Shanghai history 2.jpg" width="370" height="370">
+<img src="Shanghai history 3.jpg" width="370" height="370">
+<img src="Shanghai history 4.jpg" width="370" height="370">
+</div>
+</div>
+</div>
+</div>
+    
+<!-- 上海文化 -->
+<div class="container" style="background-color:#f1f1f1" id="SHculture">
+<div class="row">
+<div class="column-33">
+<div class="scroll-container">
+<img src="Shanghai building.jpg" alt="arecant" width="370" height="370">
+<img src="Shanghai emb.jpg"nightmarket" width="370" height="370">
+<img src="Shanghai language.jpeg" alt="motorbike" width="370" height="370">
+<img src="Shanghai dish.jpg" alt="motorbike" width="370" height="370">
+</div>
+</div>
+<div class="column-66">
+<h1 class="xlarge-font"><b>上海文化</b></h1>
+<h1 style="color:MediumSeaGreen;"><b>結合中國傳統與現代化的海派文化都市</b></h1>
+<p><b>弄堂</b></p>
+<p>弄堂是上海特有的民宅形式，這些建築構成了近代上海城市最重要的特色和地方文化。</p>
+<p><b>顧繡</b></p>
+<p>泡起源於上海的一種刺繡技巧。</p>
+<p><b>上海話</b></p>
+<p>是上海市區的方言。廣義的上海話還包括上海各郊區的方言。</p>
+<p><b>滬菜（上海菜）</b></p>
+<p>發源於上海本土以紅燒、生煸、濃油赤醬為特色，再吸收鄰近江南一帶蘇、浙等地飲食文化而成。</p>
+</div>
+</div>
+</div>
+ 
+<!-- 上海景點 -->
+<div class="container" id="SHplace">
+<h1 class="xlarge-font"><b>親子遊景點推薦</b></h1> 
+</div>
+<!-- 上海景點 1-->
+<div class="container2">
+<div class="row">
+<div class="column-66">
+<h1 class="large-font" style="color:MediumSeaGreen;"><b>豫園</b></h1>
+<p style="font-size: large;">明朝時期的私人花園，距今有四百餘年曆史，是著名江南園林，有「奇秀甲於東南」之說。景區包括了三穗堂（原為樂壽堂）、仰山堂、卷雨樓、元代鐵獅、遊廊、大假山、龍牆、望江亭、萃秀堂、神仙磚雕、魚樂榭、隔水花牆、老紫藤、夏廊、雨宜軒、萬花樓、古銀杏、藏寶樓、和煦堂、快樓、玉玲瓏、玉華堂、水廊、谷音洞、環龍橋、玩玉台等30多處。</p>
+<p><i class="material-icons">&#xe88d;</i><b>官網：</b></p>
+<p><a href="https://www.yugarden.com.cn/page/articleView/index.html" target="_blank">https://www.yugarden.com.cn/page/articleView/index.html</a></p>
+<p><i class="material-icons">&#xe567;</i><b>地址：</b></p>
+<p>上海市黃浦區安仁街132號</p>
+<p><i class="material-icons">&#xe0b0;</i><b>電話：</b></p>
+<p>021-63260830</p>
+<p><i class="material-icons">&#xe192;</i><b>營業時間：</b></p>
+<p>09:00 AM - 17:00 PM</p>
+<p><i class="material-icons">&#xe534;</i><b>交通方式：</b></p>
+<p>搭乘地鐵至「南京東路站」轉乘66路公車至福佑路即可到達上海豫園</p>
+</div>
+<div class="column-33">
+  <iframe width="500" height="500" src="https://www.youtube.com/embed/A7TIbH4Jzso?si=3Ig7Pk92-Ef_KW9H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<!-- 上海景點 2-->
+<div class="container2">
+<div class="row">
+<div class="column-66">
+<h1 class="large-font" style="color:MediumSeaGreen;"><b>上海迪士尼</b></h1>
+<p>上海迪士尼樂園亞洲第三家、全球第六家迪士尼樂園，擁有全球迪士尼樂園中最大最高的主題城堡、全球首個海盜主題園區「寶藏灣」及充滿中國特色的「十二朋友園」等。</p>
+<p><i class="material-icons">&#xe88d;</i><b>官網：</b></p>
+<p><a href="https://www.shanghaidisneyresort.com/en/?located=true" target="_blank">https://www.shanghaidisneyresort.com/en/?located=true/</a></p>
+<p><i class="material-icons">&#xe567;</i><b>地址：</b></p>
+<p>上海市浦東新區川沙新鎮黃趙路310號</p>
+<p><i class="material-icons">&#xe0b0;</i><b>電話：</b></p>
+<p>86-21-31580000</p>
+<p><i class="material-icons">&#xe192;</i><b>營業時間：</b></p>
+<p> 8:30 AM - 21:30 PM</p>
+<p><i class="material-icons">&#xe534;</i><b>交通方式：</b></p>
+<p>搭乘上海地鐵11號線抵達「 上海迪士尼 」站</p>
+</div>
+<div class="column-33">
+<iframe width="500" height="500" src="https://www.youtube.com/embed/UYpOyIELoIs?si=d1srGxeu5KvWGAOH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<!-- 上海景點 3-->
+<div class="container2">
+<div class="row">
+<div class="column-66">
+<h1 class="large-font" style="color:MediumSeaGreen;"><b>海昌海洋公園</b></h1>
+<p>國家4A級旅遊景區，以海洋文化為主題，締造五大區域和一個度假酒店，擁有《虎鯨科普秀》《海獅特快》《海豚奇緣》等十六大明星劇目；設有南極企鵝館、海獸探祕館等六大動物展示場館，提供火山漂流、海豚過山車等十餘項遊樂設施，匯聚三萬餘衹海洋生物 。</p>
+<p><i class="material-icons">&#xe88d;</i><b>官網：</b></p>
+<p><a href="https://www.haichangoceanpark.com/shanghai/" target="_blank">https://www.haichangoceanpark.com/shanghai/</a></p>
+<p><i class="material-icons">&#xe567;</i><b>地址：</b></p>
+<p>上海市浦東新區南匯新城鎮銀飛路166號</p>
+<p><i class="material-icons">&#xe0b0;</i><b>電話：</b></p>
+<p>4006016699</p>
+<p><i class="material-icons">&#xe192;</i><b>營業時間：</b></p>
+<p> 9:00 AM - 20:30 PM</p>
+<p><i class="material-icons">&#xe534;</i><b>交通方式：</b></p>
+<p>搭乘地鐵16號線抵達「 臨港大道站」3號口出站後，搭乘1135號公車後於銀飛路公車樞紐(海洋公園)下車</p>
+</div>
+<div class="column-33">
+<iframe width="560" height="500" src="https://www.youtube.com/embed/x2sqmz6yu1c?si=Tj04Xayf8OWXLmVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<!-- Footer -->  
+<div class="footer">
+<p class="font-weight-bold" ><a href="#top6"> <b>Back to top </b></a></p>
+<p>2024 Copyright: Angel Class no: 03 </p>
+</div>   
+</div>
+    </body>
+</html>

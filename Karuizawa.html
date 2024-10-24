@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karuizawa</title>
+    <style>
+        * 
+{
+box-sizing:border-box;
+}
+/* Style the body */      
+body {
+margin: 0%;
+font-family: Arial, Helvetica, sans-serif;
+}
+        
+.container {
+padding: 64px;
+}
+
+.container2{
+padding: 20px;
+}
+        
+.row:after {
+content: "";
+display: table;
+clear: both
+}
+        
+.column-66 {
+float: right;
+width: 55%;
+padding: 20px;
+}
+        
+.column-33 {
+float: right;
+width: 45%;
+padding: 20px;
+}
+        
+.large-font {
+font-size: 30px;
+}
+        
+.xlarge-font {
+font-size: 40px
+}
+ 
+
+/* img
+img {
+display: block;
+height: auto;
+ max-width: 100%;
+}
+*/
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scroll-container img {
+padding: 10px;
+}    
+
+@media screen and (max-width: 1000px) {
+.column-66,
+.column-33 {
+width: 100%;
+text-align: center;
+}
+img {
+margin: auto;
+}
+}
+/* Heading */
+.header {
+padding: 15px;
+text-align: center;
+background: pink;
+color:black;
+}
+.header h1{
+font-size: 90px;
+}
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+overflow: hidden;
+background-color: #333;
+position: sticky;
+position: -webkit-sticky;
+top: 0;
+}
+        
+/* Style the navigation bar links */
+.navbar a {
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+               
+/* Change color on hover */
+.navbar a:hover {
+background-color: grey;
+}
+        
+/* Active/current link */
+.navbar a.active {
+background-color: #666;
+color: white;
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+.navbar a {
+float: none;
+width: 100%;
+}
+}
+
+
+/* Footer */
+.footer {
+padding: 20px;
+text-align: center;
+background: #ddd;
+}
+
+a {font-size: 20px; color: black;}
+a:hover { color: rgb(0, 102, 255);}
+</style>
+<!-- Icon-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="icon" type="image/x-icon" href="/Heart icon.png">
+</head>
+<body>
+<a id="top4"></a>
+<div class="header">
+<h1><span style="font-weight:normal">日本輕井澤</span></h1>
+ </div>
+        
+<!-- Netvigation bar-->      
+<div class="navbar">
+<a href="index.html">Home</a>
+<a href="Taipei.html" target="_blank">台北</a>
+<a href="#">日本輕井澤</a>
+<a href="Korea.html" target="_blank">韓國首爾</a>
+<a href="Shanghai.html" target="_blank">上海</a>
+<a href="Aboutme.html" target="_blank">聯絡我們</a>
+</div>
+
+
+<!-- Section tag-->
+<div class="container" >
+<a href="#JPhistory"><b>日本輕井澤歷史</b></a> <a href="#JPculture"><b>日本輕井澤文化</b></a> <a href="#JPplace"><b>景點推薦</b></a>
+</div> 
+<!-- 日本輕井澤歷史 -->
+<div class="container" id="JPhistory">
+<div class="row">
+<div class="column-66">
+<h1 class="xlarge-font"><b>日本輕井澤歷史</b></h1>
+<h1 style="color:MediumSeaGreen;">避暑勝地輕井澤的誕生</h1>
+<p>在江戶時代時，輕井澤是從江戶(東京)通往京都的五條街道之一「中山道」上的宿場 (休息站)，由於當時幾乎只能徒步旅行，因此沿路能有安全的休息地點非常重要，許多人利用的宿場也會發展成小型街區，稱為「宿場町」。<br>
+<br>到明治時代時，因為引進了鐵路與汽車，來往兩地的時間縮短，因此宿場的功能也漸漸消失，輕井澤也跟著沒落。
+直到1886年夏天，加拿大傳教士亞歷山大·克羅夫多·蕭 (Alexander Croft Shaw)來到輕井澤，感覺這裡的景色與他故鄉多倫多很相似，便在這裡建造了別墅，也向朋友們宣傳，開始了將輕井澤作為避暑勝地的歷史，亞歷山大也因此被稱為「輕井澤之父」。<br>
+<br>爾後，由於JR鐵路信越本線的長野段開通，在此設置了輕井澤站，後續又開通了更多鐵路設施，因此到輕井澤的交通變得十分便利，吸引了更多傳教士、知識分子與作家們來到這裡，成為知名的避暑地，別墅也因此多以洋房或西洋建築為主。</p>
+</div>
+<div class="column-33">
+<div class="scroll-container">
+<img src="Karuizawa history1.jpg" alt="history1"width="375" height="375">  
+<img src="Karuizawa history2.jpg" alt="history2" width="375" height="375">
+</div>
+</div>
+</div>
+</div>
+    
+<!-- 日本輕井澤文化 -->
+<div class="container" style="background-color:#f1f1f1" id="JPculture">
+<div class="row">
+<div class="column-33">
+<div class="scroll-container">
+<img src="Karuizawa Church1.jpg" alt="Church1" width="375" height="375">
+<img src="Karuizawa Church2.jpg"alt="Church2" width="375" height="375">
+<img src="Karuizawa Church3.jpg" alt="Church3" width="375" height="375">
+</div>
+</div>
+<div class="column-66">
+<h1 class="xlarge-font"><b>日本輕井澤文化</b></h1>
+<h1 style="color:MediumSeaGreen;"><b>混雜了西洋與日本文化</b></h1>
+<p style="font-size: large;">輕井澤由於被基督傳教士開發成避暑勝地和傳教地點，讓輕井澤保留著日本傳統和帶有西洋文化。<br>在這裡可以看見許多教堂、教會建築、西式房舍、別莊等混合著西洋式的建築物。</p>
+</div>
+</div>
+</div>
+ 
+<!-- 日本輕井澤景點 -->
+<div class="container" id="JPplace">
+<h1 class="xlarge-font"><b>親子遊景點推薦</b></h1> 
+</div>
+<!-- 日本輕井澤景點 1-->
+<div class="container2">
+<div class="row">
+<div class="column-66">
+<h1 class="large-font" style="color:MediumSeaGreen;"><b>輕井澤玩具王國</b></h1>
+<p style="font-size: large;">輕井澤玩具王國佔地遼闊共分為3大區域，處處充滿了會讓小朋友們雀躍興奮的元素。首先是「玩具房間」，這個區域中有麗佳娃娃和森林家族和動作遊戲世界等11個主題館。接著是可以到「自然·體育區」。這裡包含樹屋、空中飛索、飛鼠小屋、鞦韆和約120處山訓活動設施。最後是「遊樂設施區」。輕井澤玩具王國不僅遊樂設施充實，還提供木工雕刻教室和手捉虹鱒等可以一邊遊玩一邊學習的體驗教室。</p>
+<p><i class="material-icons">&#xe88d;</i><b>官網：</b></p>
+<p><a href="https://www.omochaoukoku.com/karuizawa/" target="_blank">https://www.omochaoukoku.com/karuizawa/</a></p>
+<p><i class="material-icons">&#xe567;</i><b>地址：</b></p>
+<p>群馬縣吾妻郡如嬬戀村大前細原2277</p>
+<p><i class="material-icons">&#xe0b0;</i><b>電話：</b></p>
+<p>0279-86-3515</p>
+<p><i class="material-icons">&#xe192;</i><b>營業時間：</b></p>
+<p>10:00 AM - 17:00 PM(11月為10:00 AM- 16:30 PM)</p>
+<p><i class="material-icons">&#xe534;</i><b>交通方式：</b></p>
+<p>從JR信濃鐵道「輕井澤」站搭乘接駁巴士約60分鐘車程</p>
+<p>從JR「萬座鹿澤口」站搭乘西武巴士或計程車約10分鐘車程</p>
+</div>
+<div class="column-33">
+<iframe class=responsive-iframe width="500" height="500" src="https://www.youtube.com/embed/TkIqccPrh8s?si=wfIbP5uMlK3F4wzp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<!-- 日本輕井澤景點 2-->
+<div class="container2">
+<div class="row">
+<div class="column-66">
+  <h1 class="large-font" style="color:MediumSeaGreen;"><b>AMICI ADVENTURE</b></h1>
+  <p>AMICI ADVENTURE是位在輕井澤王子飯店東館的季節限定戶外遊樂園，設有多種可以活動身體的遊樂設施。你可以在草皮上赤腳奔跑，並在安全的遊樂設施上或爬或跳，另外還有多種攀爬及樹間攀越運動（tree trekking）可以體驗。</p>
+  <p><i class="material-icons">&#xe88d;</i><b>官網：</b></p>
+  <p><a href="https://www.amiciadventure.com/" target="_blank">https://www.amiciadventure.com/</a></p>
+  <p><i class="material-icons">&#xe567;</i><b>地址：</b></p>
+  <p>長野県北佐久郡軽井沢町軽井沢</p>
+  <p><i class="material-icons">&#xe0b0;</i><b>電話：</b></p>
+  <p>0267-41-1750</p>
+  <p><i class="material-icons">&#xe192;</i><b>營業時間：</b></p>
+  <p> 9:00 AM - 5:00 PM</p>
+  <p>不定期公休</p>
+  <p><i class="material-icons">&#xe534;</i><b>交通方式：</b></p>
+  <p>JR北陸新幹線・信濃鐵道「輕井澤站」下車，步行約10分鐘</p>
+</div>
+<div class="column-33">
+<iframe class=responsive-iframe width="500" height="500" src="https://www.youtube.com/embed/BpLQ4FePT6Q?si=q-pqkCleFea7EWkw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<!-- 日本輕井澤景點 3-->
+<div class="container2">
+<div class="row">
+<div class="column-66">
+<h1 class="large-font" style="color:MediumSeaGreen;"><b>輕井澤冰上公園</b></h1>
+<p>輕井澤冰上公園是日本最大的冰壺運動場館，這裡曾經是1998年長野冬季奧運的冰壺競賽場地，於2009年開放給大眾使用，因此現在一年四季都有機會體驗到冰壺運動。在這裡提供裝備的租借服務，也會定期舉辦冰壺體驗課程，只要5歲以上就能夠參加。記得穿著方便活動的保暖衣物，來場有趣的冰壺體驗吧！</p>
+<p><i class="material-icons">&#xe88d;</i><b>官網：</b></p>
+<p><a href="https://www.kazakoshi-park.jp/facility/ice-park/" target="_blank">https://www.kazakoshi-park.jp/facility/ice-park/</a></p>
+<p><i class="material-icons">&#xe567;</i><b>地址：</b></p>
+<p>長野県北佐久郡軽井沢町発地1154-1</p>
+<p><i class="material-icons">&#xe0b0;</i><b>電話：</b></p>
+<p>0267-48-2145</p>
+<p><i class="material-icons">&#xe192;</i><b>營業時間：</b></p>
+<p> 9:00 AM - 10:00 PM</p>
+<p>公休 12/31、1/1 </p>
+<p><i class="material-icons">&#xe534;</i><b>交通方式：</b></p>
+<p>信濃鐵道「輕井澤站」下車，搭乘計程車約8分鐘</p>
+</div>
+<div class="column-33">
+<iframe width="500" height="500" src="https://www.youtube.com/embed/JyK_0k_qFQw?si=D1ICF_JgcAfmgS-m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<!-- Footer -->  
+<div class="footer">
+<p class="font-weight-bold" ><a href="#top4"> <b>Back to top </b></a></p>
+<p>2024 Copyright: Angel Class no: 03 </p>
+</div>   
+</div>
+</body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korea</title>
+    <style>
+        * 
+{
+box-sizing:border-box;
+}
+/* Style the body */      
+body {
+margin: 0%;
+font-family: Arial, Helvetica, sans-serif;
+}
+        
+.container {
+padding: 64px;
+}
+
+.container2{
+padding: 20px;
+}
+        
+.row:after {
+content: "";
+display: table;
+clear: both
+}
+        
+.column-66 {
+float: left;
+width: 60%;
+padding: 20px;
+}
+        
+.column-33 {
+float: left;
+width: 40%;
+padding: 20px;
+}
+        
+.large-font {
+font-size: 30px;
+}
+        
+.xlarge-font {
+font-size: 40px
+}
+ 
+
+/* img
+img {
+display: block;
+height: auto;
+ max-width: 100%;
+}
+*/
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scroll-container img {
+padding: 10px;
+}    
+
+@media screen and (max-width: 1000px) {
+.column-66,
+.column-33 {
+width: 100%;
+text-align: center;
+}
+img {
+margin: auto;
+}
+}
+/* Heading */
+.header {
+padding: 15px;
+text-align: center;
+background: pink;
+color:black;
+}
+.header h1{
+font-size: 90px;
+}
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+overflow: hidden;
+background-color: #333;
+position: sticky;
+position: -webkit-sticky;
+top: 0;
+}
+        
+/* Style the navigation bar links */
+.navbar a {
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+               
+/* Change color on hover */
+.navbar a:hover {
+background-color: grey;
+}
+        
+/* Active/current link */
+.navbar a.active {
+background-color: #666;
+color: white;
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+.navbar a {
+float: none;
+width: 100%;
+}
+}
+
+
+/* Footer */
+.footer {
+padding: 20px;
+text-align: center;
+background: #ddd;
+}
+
+a {font-size: 20px; color: black;}
+a:hover { color: rgb(0, 102, 255);}
+</style>
+<!-- Icon-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="icon" type="image/x-icon" href="/Heart icon.png">
+</head>
+<body>
+<a id="top5"></a>
+<div class="header">
+<h1><span style="font-weight:normal">韓國首爾</span></h1>
+ </div>
+        
+<!-- Netvigation bar-->      
+<div class="navbar">
+<a href="index.html">Home</a>
+<a href="Taipei.html" target="_blank">台北</a>
+<a href="Karuizawa.html" target="_blank">日本輕井澤</a>
+<a href="#">韓國首爾</a>
+<a href="Shanghai.html" target="_blank">上海</a>
+<a href="Aboutme.html" target="_blank">聯絡我們</a>
+</div>
+
+
+<!-- Section tag-->
+<div class="container" >
+<a href="#krhistory"><b>韓國首爾歷史</b></a> <a href="#krculture"><b>韓國首爾文化</b></a> <a href="#krplace"><b>景點推薦</b></a>
+</div> 
+<!-- 韓國首爾歷史 -->
+<div class="container" id="krhistory">
+<div class="row">
+<div class="column-66">
+<h1 class="xlarge-font"><b>韓國首爾歷史</b></h1>
+<h1 style="color:MediumSeaGreen;">首爾已有大約2000年的歷史</h1>
+<p>首爾是韓國的首都，過去曾是百濟和朝鮮的首都。根據時代的不同，也被稱為慰禮城、漢山、漢城、漢陽、楊州、南京和京城。
+<br><br>從岩寺洞史前居所可以發現，首爾從新石器時代當時就有人居住。歷經三國時代、高麗時代到朝鮮時代，已有大約2000年的歷史。
+</p>
+</div>
+<div class="column-33">
+<div class="scroll-container">
+<img src="Korea history 2.jpg" width="340" height="340">  
+<img src="Korea history 1.jpg" width="340" height="340">  
+</div>
+</div>
+</div>
+</div>
+    
+<!-- 韓國首爾文化 -->
+<div class="container" style="background-color:#f1f1f1" id="krculture">
+<div class="row">
+<div class="column-33">
+<div class="scroll-container">
+<img src="Korea sauce.jpg" alt="arecant" width="350" height="350">
+<img src="Korea kimchi.jpg" alt="nightmarket" width="350" height="350">
+<img src="Korea dress.jpg" alt="motorbike" width="350" height="350">
+<img src="Korea paper.jpg" alt="coffee shop" width="350" height="350">
+</div>
+</div>
+<div class="column-66">
+<h1 class="xlarge-font"><b>韓國首爾文化</b></h1>
+<h1 style="color:MediumSeaGreen;"><b>傳統文化</b><br>大醬、泡菜、韓服、韓紙</b></h1>
+<p><b>大醬</b></p>
+<p>韓國料理裡的一種鹹味的豆製品醬料，可以與任何食物相搭配。</p>
+<p><b>泡菜</b></p>
+<p>泡菜是韓國的一種傳統醃漬食品，韓國人會把醃製泡菜的做法代代相傳。</p>
+<p><b>韓服</b></p>
+<p>韓服是自古傳承而來的韓國傳統服飾，至今仍是傳統節日或結婚典禮等重要日子的一種主要服裝。</p>
+<p><b>韓紙</b></p>
+<p>韓紙有著一千多年的歷史，，這種紙又柔軟又有很強的韌性，非常堅固耐用，可以寫字繪畫，製作各種工藝品和衣服。</p>
+</div>
+</div>
+</div>
+ 
+<!-- 韓國首爾景點 -->
+<div class="container" id="krplace">
+<h1 class="xlarge-font"><b>親子遊景點推薦</b></h1> 
+</div>
+<!-- 韓國首爾景點 1-->
+<div class="container2">
+<div class="row">
+<div class="column-66">
+<h1 class="large-font" style="color:MediumSeaGreen;"><b>樂天世界</b></h1>
+<p>首爾樂天世界是世界最大的室內遊樂場，適合家庭、好友和情侶一同前往。樂天世界主要分為室內的「探險世界」和室外的「魔幻島」，還有民俗館、影院、溜冰場和百貨公司。「探險世界」是世界上最大的室內主題公園，遊樂設施溫和，適合親子遊。「魔幻島」則是湖水公園，充滿刺激和挑戰的設施，適合追求刺激的你。</p>
+<p><i class="material-icons">&#xe88d;</i><b>官網：</b></p>
+<p><a href="https://adventure.lotteworld.com/kor/main/index.do" target="_blank">https://adventure.lotteworld.com/kor/main/index.do</a></p>
+<p><i class="material-icons">&#xe567;</i><b>地址：</b></p>
+<p>首爾特別市松坡區奧林匹克路240樂天酒店樂天世界</p>
+<p><i class="material-icons">&#xe0b0;</i><b>電話：</b></p>
+<p>82-2-1661-2000</p>
+<p><i class="material-icons">&#xe192;</i><b>營業時間：</b></p>
+<p>10:00 AM – 22:00 PM</p>
+<p><i class="material-icons">&#xe534;</i><b>交通方式：</b></p>
+<p>乘搭2號線 / 8號線至蠶室站，由3 / 4號出口徒步4分鐘 </p>
+</div>
+<div class="column-33">
+  <iframe width="600" height="600" src="https://www.youtube.com/embed/KFgGGgSk-YQ?si=Bl4NnMtfAMV64lZL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<!-- 韓國首爾景點 2-->
+<div class="container2">
+<div class="row">
+<div class="column-66">
+<h1 class="large-font" style="color:MediumSeaGreen;"><b>愛寶樂園</b></h1>
+<p>愛寶樂園是韓國最大主題樂園！樂園有多彩多姿的慶典活動，結合遊樂器材、動物園、植物園等各種設施，為遊客帶來歡笑並提供休息空間的主題樂園！樂園內分為五大主題區，分別是「環球集市」、「美洲冒險」、「動物王國」、「歐洲冒險」和「魔術天地」。</p>
+<p><i class="material-icons">&#xe88d;</i><b>官網：</b></p>
+<p><a href="https://www.everland.com/everland/home/main" target="_blank">https://www.everland.com/everland/home/main</a></p>
+<p><i class="material-icons">&#xe567;</i><b>地址：</b></p>
+<p>京畿道龍仁市處仁區蒲谷邑愛寶樂園路199</p>
+<p><i class="material-icons">&#xe0b0;</i><b>電話：</b></p>
+<p>82-31-320-5000</p>
+<p><i class="material-icons">&#xe192;</i><b>營業時間：</b></p>
+<p>每月營業時間不同，詳細資訊請參考網站</p>
+<p><i class="material-icons">&#xe534;</i><b>交通方式：</b></p>
+<p>搭乘盆塘線線到「器興站」換乘龍仁輕軌愛寶樂園線，於「前垈愛寶樂園站」下車，轉乘愛寶樂園接駁車</p>
+</div>
+<div class="column-33">
+  <iframe width="600" height="600" src="https://www.youtube.com/embed/wpQe5eMtnzU?si=fynzOqoEiEta_qIm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<!-- 韓國首爾景點 3-->
+<div class="container2">
+<div class="row">
+<div class="column-66">
+<h1 class="large-font" style="color:MediumSeaGreen;"><b>龍仁加勒比灣水上樂園</b></h1>
+<p>加勒比海灣建是以加勒比海岸為主題打造而成的水上樂園，擁有各種遊樂設施與健康設施。戶外有人工波浪池，可自由往來於室內外的流水池，以及驚險刺激的各種滑水道等設施；室內則有室內人工波浪池、滑水道、SPA、三溫暖等設施。巧妙的複合式設計，為遊客帶來刺激無比的回憶。</p>
+<p><i class="material-icons">&#xe88d;</i><b>官網：</b></p>
+<p><a href="https://www.everland.com/everland/home/main" target="_blank">https://www.everland.com/everland/home/main</a></p>
+<p><i class="material-icons">&#xe567;</i><b>地址：</b></p>
+<p>京畿道龍仁市處仁區蒲谷邑愛寶樂園路199</p>
+<p><i class="material-icons">&#xe0b0;</i><b>電話：</b></p>
+<p>82-31-320-5000</p>
+<p><i class="material-icons">&#xe192;</i><b>營業時間：</b></p>
+<p>室內 10:00 AM – 18:00 PM</p>
+<p>戶外10:00 AM – 17:00 PM</p>
+<p><i class="material-icons">&#xe534;</i><b>交通方式：</b></p>
+<p>搭乘盆塘線線到「器興站」換乘龍仁輕軌愛寶樂園線，於「前垈愛寶樂園站」下車，轉乘愛寶樂園接駁車</p>
+</div>
+<div class="column-33">
+  <iframe width="600" height="600" src="https://www.youtube.com/embed/RlaqS4KPoZA?si=4HqgVhQKuuJyyzgS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<!-- Footer -->  
+<div class="footer">
+<p class="font-weight-bold" ><a href="#top5"> <b>Back to top </b></a></p>
+<p>2024 Copyright: Angel Class no: 03 </p>
+</div>   
+</div>
+    </body>
+</html>

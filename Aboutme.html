@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+<head>
+<style>
+* 
+{
+box-sizing: border-box;
+}
+        
+/* Style the body */
+body {
+margin: 0%;
+font-family: Arial, Helvetica, sans-serif;
+}
+        
+/* Header/logo Title */
+.header {
+padding: 15px;
+text-align: center;
+background: pink;
+color:black;
+}
+        
+/* Increase the font size of the heading */
+.header h1{
+font-size: 90px;
+}
+
+a {font-size: 20px; color: black;}
+a:hover { color: rgb(0, 102, 255);}
+        
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+overflow: hidden;
+background-color: #333;
+position: sticky;
+position: -webkit-sticky;
+top: 0;
+}
+        
+/* Style the navigation bar links */
+.navbar a {
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+        
+
+        
+/* Change color on hover */
+.navbar a:hover {
+background-color: grey;
+}
+        
+/* Active/current link */
+.navbar a.active {
+background-color: #666;
+color: white;
+}
+
+
+
+
+
+
+
+        
+/* Column container */
+.row {  
+display: -ms-flexbox; /* IE10 */
+display: flex;
+-ms-flex-wrap: wrap; /* IE10 */
+flex-wrap: wrap;
+}
+        
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+-ms-flex: 30%; /* IE10 */
+flex: 30%;
+background-color: #f1f1f1;
+padding: 20px;
+}
+        
+/* Main column */
+.main {   
+-ms-flex: 70%; /* IE10 */
+flex: 70%;
+background-color: white;
+padding: 20px;
+}
+        
+        
+/* Footer */
+.footer {
+padding: 20px;
+text-align: center;
+background: #ddd;
+}
+        
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+.row {   
+flex-direction: column;
+}
+}
+        
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+.navbar a {
+float: none;
+width: 100%;
+}
+}
+
+/* Styling the Form (Color, Padding, Shadow) */
+form {
+background-color: #fff;
+max-width: 500px;
+margin: 50px auto;
+padding: 30px 20px;
+box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling form-control Class */
+.form-control {
+text-align: left;
+margin-bottom: 25px;
+}
+
+/* Styling form-control Label */
+.form-control label {
+display: block;
+margin-bottom: 10px;
+}
+
+/* Styling form-control input, 
+select, textarea */
+.form-control input,
+.form-control select,
+.form-control textarea {
+border: 1px solid #777;
+border-radius: 2px;
+font-family: inherit;
+padding: 10px;
+display: block;
+width: 95%;
+}
+
+/* Styling form-control Radio 
+button and Checkbox */
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+display: inline-block;
+width: auto;
+}
+
+/* Styling Button */
+button {
+background-color: mediumseagreen;
+border: 1px solid #777;
+border-radius: 2px;
+font-family: inherit;
+font-size: 21px;
+display: block;
+width: 100%;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+</style>
+<!-- Icon-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="icon" type="image/x-icon" href="/Heart icon.png">
+</head>
+<a id="top2"></a>
+<body>
+        
+<div class="header">
+<h1><span style="font-weight:normal"> 與我聯絡</span></h1>
+</div>
+
+<!-- Netvigation bar-->      
+<div class="navbar">
+<a href="index.html">Home</a>
+<a href="Taipei.html" target="_blank">台北</a>
+<a href="Karuizawa.html" target="_blank">日本輕井澤</a>
+<a href="Korea.html" target="_blank">韓國首爾</a>
+<a href="Shanghai.html" target="_blank">上海</a>
+</div>
+
+<!-- Contact-->     
+<div class="row">
+<div class="side">
+<h2>關於我</h2>
+<div><img src="Aboutme.jpeg" alt="About Me" height="100" width="100"></div>
+<p>Hi! 我是愛旅行的Angel。我曾經是一位朝九晚五的上班族媽媽，由於工作忙碌，常常無法陪伴孩子，錯過了許多寶貴的親子時光。直到2024年1月離開職場，成立「親子遊」網站，我可以寓工作於娛樂，帶孩子周圍列國，並與大家分享好玩的親子遊景點。</p>
+<h3><i class="material-icons">&#xe0b0;</i>致電我</h3>
+<p>(852) 3104 0514</p>
+<h3><i class="material-icons">&#xe0be;</i>電郵我</h3>
+<p>cp@scope.edu</p>
+<p><i class="material-icons">&#xe567;</i><b>地址：</b></p>
+<p>九龍尖沙咀東科學館道16號華懋廣場UG3樓UG301室</p>
+<br>
+<br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1305.1188835257346!2d114.17899605901073!3d22.299433582699475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400ef633d3155%3A0xf011bc37cfd203d4!2z6I-v5oeL5buj5aC0!5e0!3m2!1szh-TW!2shk!4v1728972391430!5m2!1szh-TW!2shk" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<!-- Survey-->  
+<div class="main">
+<h1>歡迎提供意見</h1>
+<h3>意見箱</h3>
+<p>你的意見有助我們做得更好，請填寫以下問卷 ：</p>
+
+<!-- Create Form -->
+<form id="form" onsubmit="myFunction()">
+
+<!-- Details -->
+<div class="form-control">
+<label for="name" id="label-name">
+姓名:
+</label>
+
+<!-- Input Type Text -->
+<input type="text" id="name" 
+placeholder="可選填" />
+</div>
+
+<div class="form-control">
+<label for="email" id="label-email">
+電郵
+</label>
+
+<!-- Input Type Email-->
+<input type="email" id="email" 
+placeholder="可選填" />
+</div>
+
+
+<div class="form-control">
+<label for="role" id="label-role">
+年齡組別
+</label>
+
+<!-- Dropdown options -->
+<select name="role" id="role">
+<option value="student">0-19歲</option>
+<option value="intern">20-44歲</option>
+<option value="professional">45-64歲</option>
+<option value="other">65歲或以上</option>
+</select>
+</div>
+
+<div class="form-control">
+<label>
+你會推介「親子遊」網站給朋友嗎?
+</label>
+
+<!-- Input Type Radio Button -->
+<label for="recommed-1">
+<input type="radio" id="recommed-1" 
+name="recommed">會
+</input>
+</label>
+<label for="recommed-2">
+<input type="radio" id="recommed-2" 
+name="recommed">不會
+</input>
+</label>
+<label for="recommed-3">
+<input type="radio" id="recommed-3" 
+name="recommed">可能
+</input>
+</label>
+</div>
+
+<div class="form-control">
+<label>最有興趣的內容是什麼？(可選多於一項)
+</label>
+<!-- Input Type Checkbox -->
+<label for="inp-1">
+<input type="checkbox" name="inp">酒店住宿優惠
+</input>
+</label>
+<label for="inp-2">
+<input type="checkbox" name="inp">機票優惠
+</input>
+</label>
+<label for="inp-3">
+<input type="checkbox" name="inp">景點
+</input>
+</label>
+<label for="inp-4">
+<input type="checkbox" name="inp">餐飲美食
+</input>
+</label>
+</div>
+
+<div class="form-control">
+<label for="comment">
+其他意見
+</label>
+
+<!-- multi-line text input control -->
+<textarea name="comment" id="comment" 
+placeholder="請輸入">
+</textarea>
+</div>
+
+<!-- Multi-line Text Input Control -->
+<button type="submit" value="submit">
+Submit
+</button>
+<button type="reset" value="reset">
+Reset
+</button>
+</form>
+
+<script>
+document.getElementById("myForm").addEventListener("submit", myFunction);
+function myFunction() {
+alert("The form was submitted");
+}
+</script>
+
+<!-- Footer -->  
+<div class="footer">
+<p class="font-weight-bold" ><a href="#top2"> <b>Back to top </b></a></p>
+<p>2024 Copyright: Angel Class no: 03 </p>
+</div>
+</div>
+        
+</body>
+</html>
